@@ -1,0 +1,60 @@
+:export {
+  blueFont: #0191b2;
+  orangeFont: #ff8166;
+  sFont: 16px;
+  mFont: 24px;
+  lFont: 32px;
+}
+
+.logo {
+  color: #0191b2;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.orange {
+  color: #ff8166;
+}
+:export {
+  blueFont: #0191b2;
+  orangeFont: #ff8166;
+  sFont: 16px;
+  mFont: 24px;
+  lFont: 32px;
+}
+
+.small {
+  height: 10px;
+}
+
+.medium {
+  height: 30px;
+}
+
+.large {
+  height: 50px;
+}
+:export {
+  blueFont: #0191b2;
+  orangeFont: #ff8166;
+  sFont: 16px;
+  mFont: 24px;
+  lFont: 32px;
+}
+
+.hover, .special, .paragraph {
+  font-size: 24px;
+}
+
+.special {
+  color: purple;
+  font-size: 50px;
+}
+
+.hover:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=/src.f69400ca.css.map */

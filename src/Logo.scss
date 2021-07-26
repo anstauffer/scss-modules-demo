@@ -1,0 +1,16 @@
+@import "variables";
+
+%logo-shared {
+  color: $blue-font;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo {
+  @extend %logo-shared;
+}
+
+.orange {
+  color: $orange-font
+}

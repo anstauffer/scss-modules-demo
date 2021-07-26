@@ -1,0 +1,16 @@
+@import "variables";
+
+@mixin spacer($size: 30px) {
+  height: $size;
+}
+
+.small {
+  @include spacer($size: 10px);
+}
+
+.medium {
+  @include spacer($size: 30px);
+}
+.large {
+  @include spacer($size: 50px);
+}

@@ -1,0 +1,14 @@
+$blue-font: #0191b2;
+$orange-font: #ff8166;
+$s-font: 16px;
+$m-font: 24px;
+$l-font: 32px;
+$xl-font: 50px;
+
+:export {
+  blueFont: $blue-font;
+  orangeFont: $orange-font;
+  sFont: $s-font;
+  mFont: $m-font;
+  lFont: $l-font;
+}

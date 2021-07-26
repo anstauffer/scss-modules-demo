@@ -1,0 +1,24 @@
+@import "variables";
+
+%paragraph-shared {
+  font-size: $m-font;
+
+}
+
+.paragraph {
+  @extend %paragraph-shared;
+}
+
+.special {
+  color: purple;
+  font-size: $xl-font;
+  @extend %paragraph-shared;
+}
+
+.hover {
+  @extend %paragraph-shared;
+  &:hover {
+    color: blue;
+    cursor: pointer;
+  }
+}
